@@ -104,8 +104,8 @@ body {
 
     .first_block {
       &:before {
-        color: #161616;
-        -webkit-text-stroke: 1px #1d1d1d;
+        color: #1d1d1d;
+        -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
       }
 
       .first_block__bottom {
@@ -160,8 +160,8 @@ body {
       .projects_box {
         .projects_elem {
           &:before {
-            color: #161616;
-            -webkit-text-stroke: 1px #1d1d1d;
+            color:#1d1d1d;
+            -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
           }
 
           &:after {
