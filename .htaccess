@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP:HTTPS} !on
+RewriteRule (.*) https://insite.store/$1 [R=301,L]
